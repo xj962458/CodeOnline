@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
 	int i,j,k; 
 	for(i=0;i<=33;i++)
@@ -9,4 +9,5 @@ void main()
 		if(3*i+2*j+k/2.0==100)
 			printf("Da=%d,Zhong=%d,Xiao=%d\n",i,j,k);
 	}
+	return 0;
 }
