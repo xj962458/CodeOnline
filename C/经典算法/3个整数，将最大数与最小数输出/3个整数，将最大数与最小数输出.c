@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
 	int a,b,c,t; 
 	int max,min;
@@ -14,4 +14,5 @@ void main()
 	else
 		min=c;
 	printf("max=%d,min=%d",max,min);
+	return 0;
 }

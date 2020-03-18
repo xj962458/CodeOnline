@@ -9,10 +9,11 @@ void mystrcat(char *s,char *ct)
 }
 int main()
 {
-	char na[100],nb[100]; 
+	char na[100],j_yunb[100]; 
 	gets(na);
 	gets(nb);
 	mystrcat(na,nb); 
 	printf("%s\n",na); 
 	return 0;
+	
 }
